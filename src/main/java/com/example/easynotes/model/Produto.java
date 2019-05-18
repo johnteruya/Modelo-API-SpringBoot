@@ -25,6 +25,8 @@ public class Produto {
 	@Column(nullable = false)
 	private String description;
 
+	
+	
 	public long getIdProduct() {
 		return idProduct;
 	}

@@ -14,6 +14,6 @@ public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 	@Query(value="SELECT p FROM Produto p WHERE p.description=?1")
 	List<Produto> getProdutoByDescription(String description);
 	
-
+	//http://localhost:8080/api-produto/listarPorNome?description=teste
 	
 }
